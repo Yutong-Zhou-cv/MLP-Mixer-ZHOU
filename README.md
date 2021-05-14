@@ -1,9 +1,4 @@
-# <p align=center>`MLP-Mixer-ZHOU`</p>
-
-**Note**: You're viewing the `linen` branch of this repository. The code has
-recently been updated and the results have not yet been fully replicated. We
-will update the table below soon with new results from the updated code and then
-merge this branch into `master`.
+# <p align=center>`[Unofficial Code🌱]MLP-Mixer-ZHOU`</p>
 
 # Vision Transformer and MLP-Mixer Architectures for Vision
 
