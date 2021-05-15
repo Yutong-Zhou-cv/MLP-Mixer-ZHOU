@@ -52,7 +52,7 @@ class MixerBlock_tc_cat_ct(nn.Module):
     y = jnp.swapaxes(y, 1, 2)
     y = MlpBlock(self.tokens_mlp_dim, name='token_mixing')(y)
     y_ct = jnp.swapaxes(y, 1, 2)
-    ct = x + y
+    ct = x + y_ct
     
     tcct = jnp.concatenate(tc, ct)
     return tcct
